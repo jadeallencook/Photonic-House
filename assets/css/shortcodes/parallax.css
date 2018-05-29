@@ -29,10 +29,10 @@
 	font-size:16px;
 }
 .intro .intro-body .brand-heading {
-	font-size: 40px;
+	font-size: 8vw;
 }
 .intro .intro-body .intro-text {
-	font-size: 1em;
+	font-size: 1.0em;
 }
  @media(min-width:768px) {
 .intro {
@@ -40,10 +40,10 @@
 	padding: 0;
 }
 .intro .intro-body .brand-heading {
-	font-size: 38px;
+	font-size: 8vh;
 }
 .intro .intro-body .intro-text {
-	font-size: 1.1em;
+	font-size: 2.0em;
 }
 }
 .btn-intro {
@@ -235,7 +235,7 @@
 }
 .parallax_banner4 {
 	position: relative;
-	background-image: url(../../images/parallax/intro_bg4.jpg);
+	background-image: url(https://static1.squarespace.com/static/559dc1e5e4b03a899d83c964/5b0b2f5c352f53c0a524f048/5b0b2f5e352f53c0a524f056/1527459683809/bg1.jpg?format=1000w);
 	height: 100vh;
 }
 .parallax_banner4 .container {
@@ -263,13 +263,10 @@
  @media (max-width: 762px) {
 .parallax_banner4 {
 	position: relative;
-	background-image: url(../../images/parallax/intro_bg4.jpg);
+	background-image: url(https://static1.squarespace.com/static/559dc1e5e4b03a899d83c964/5b0b2f5c352f53c0a524f048/5b0b2f5e352f53c0a524f056/1527459683809/bg1.jpg?format=1000w);
 	height: auto;
 }
 }
-
-
-
 .parallax_banner5 {
 	position: relative;
 	background-image: url(../../images/parallax/intro_bg5.jpg);
@@ -347,7 +344,7 @@
 /*parallax_section1*/
 .parallax_section1 {
 	position: relative;
-	background-image: url(../../images/parallax/1.jpeg);
+	background-image: url(https://static1.squarespace.com/static/559dc1e5e4b03a899d83c964/5b0b2f5c352f53c0a524f048/5b0b31ac758d461b37e6e31d/1527460279872/bg2.jpg?format=1000w);
 }
 .parallax_section1 .container {
 	position: relative;
@@ -378,7 +375,7 @@
 /*parallax_section2*/
 .parallax_section2 {
 	position: relative;
-	background-image: url(../../images/parallax/2.jpg);
+	background-image: url(http://www.laser-quantum.com//wp-content/uploads/2016/02/laser-4.jpg);
 }
 .parallax_section2 .container {
 	position: relative;
@@ -476,7 +473,7 @@
 
 .parallax_section5 {
 	position: relative;
-	background-image: url(../../images/parallax/5.jpg);
+	background-image: url(https://www.advancedsciencenews.com/wp-content/uploads/2017/05/FI_BrushCryst.jpg);
 }
 .parallax_section5 .container {
 	position: relative;

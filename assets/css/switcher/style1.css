@@ -95,14 +95,14 @@ BUTTONS COLOR
 	transition: all 0.5s ease-in-out 0s;
 }
 .yorker-btn2 {
-	background-color: #ff7e20;
-	color: #ffffff;
-	border: 1px solid #ff7e20;
+	background-color: #111;
+	color: #eeeeee;
+	border: 1px solid #eee;
 	transition: all 0.5s ease-in-out 0s;
 }
 .yorker-btn2:hover {
-	background-color: transparent;
-	color: #ffffff;
+	background-color: #ff7e20;
+	color: #111;
 	border: 1px solid #ff7e20;
 	transition: all 0.5s ease-in-out 0s;
 }
