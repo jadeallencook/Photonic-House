@@ -2,9 +2,18 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119906910-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119906910-1');
+</script>
   <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
-  <title>Yorker- Single Page theme</title>
+  <title>Photonic House | Light Art Experience</title>
   <?php
       include_once('components/head-css.html');
       include_once('components/head-meta.html');
@@ -15,27 +24,23 @@
   <div class="wrapper">
     
     <?php 
-      include_once('components/navbar.html'); 
-      include_once('components/video-background.html'); 
-      include_once('components/how-it-works.html');
-      include_once('components/features.html');
-      include_once('components/our-story.html');
-      include_once('components/bar-charts.html');
-      include_once('components/about.html');
-      include_once('components/about-us-context.html');
-      include_once('components/number-counters.html');
-      include_once('components/example-pic-grid.html');
-      include_once('components/section-header.html');
-      include_once('components/parallax.html');
-      include_once('components/pricing.html');
-      include_once('components/team.html');
-      include_once('components/blog.html');
-      include_once('components/contact.html');
-      include_once('components/map.html');
-      include_once('components/footer.html');
-      include_once('components/scroll-to-top.html');
-      include_once('components/footer.html');
-      include_once('components/preloader.html');
+    
+      $sections = array(
+        'navbar',
+        'header',
+        'how-it-works',
+        'experiences',
+        'teaser-vid',
+        'collaborate',
+        'footer',
+        'scroll-to-top',
+        'preloader',
+      ); 
+
+      foreach ($sections as $section) {
+          include_once("components/$section.html");
+      }
+
     ?>
 
 
