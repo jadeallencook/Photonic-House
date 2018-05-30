@@ -32,6 +32,7 @@
         'experiences',
         'teaser-vid',
         'collaborate',
+        'partners',
         'footer',
         'scroll-to-top',
         'preloader',
