@@ -134,3 +134,8 @@
 	opacity: 1;
 	max-height: 400px;
 }
+
+button.dropdown {
+	color: #000;
+	background-color: #ff7e20;
+}

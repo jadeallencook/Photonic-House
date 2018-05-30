@@ -84,27 +84,27 @@ BUTTONS COLOR
 ==========================*/
 
 .yorker-btn {
-	background-color: #111;
-	color: #ffffff;
-	transition: all 0.5s ease-in-out 0s;
+	background-color: #ffffff;
+	color: #111111;
+
 }
 .yorker-btn:hover {
 	background-color: #ff7e20;
 	color: #ffffff;
-	border: 1px solid #d1d1d1;
-	transition: all 0.5s ease-in-out 0s;
+	border: 1px solid #111111;
+	
 }
 .yorker-btn2 {
-	background-color: #111;
-	color: #eeeeee;
-	border: 1px solid #eee;
-	transition: all 0.5s ease-in-out 0s;
+	background-color: #ff7e20;
+	color: #111111;
+	border: 1px solid #ff7e20;
+	
 }
 .yorker-btn2:hover {
-	background-color: #ff7e20;
-	color: #111;
+	background-color: #111111;
+	color: #ffffff;
 	border: 1px solid #ff7e20;
-	transition: all 0.5s ease-in-out 0s;
+	
 }
 .yorker-btn3 {
 	background-color: transparent;
