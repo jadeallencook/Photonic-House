@@ -27,11 +27,7 @@
     
       $sections = array(
         'navbar',
-        'header',
-        'how-it-works',
-        'experiences',
-        'teaser-vid',
-        'collaborate',
+        'waitlist',
         'footer',
         'scroll-to-top',
         'preloader',
