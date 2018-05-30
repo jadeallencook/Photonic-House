@@ -344,6 +344,8 @@ span.about-span-font {
  * ========================================
  */
 
+
+
 .light-gray-bg {
 	background-color:#f4f5f9;
 }
@@ -364,7 +366,7 @@ span.about-span-font {
 .dark-bg-2 h2 {
 	color:#FFF;
 }
-.dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg h5, .dark-bg h6, .dark-bg p, .dark-bg i {
+.dark-bg h1, .faq, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg h5, .dark-bg h6, .dark-bg p, .dark-bg i {
 	color:#ffffff;
 }
 .dark-bg .subheading
