@@ -75,3 +75,62 @@
 	border-color: #9c5b57;
 	background: #9c5b57;
 }
+
+
+.faq-inner-block .accordion-wrapper {margin-bottom: 1rem;}
+.faq-inner-block .panel{
+	background: none;
+	display: block;
+	max-height: 0;
+	opacity: 0;
+	transition: all ease 1s;
+}
+.faq-inner-block .panel .pannel-inner {
+	padding: 0.5em 1.5em 0.5em 0;
+    text-align: left;
+}
+.faq-inner-block .panel .pannel-inner p {
+	color: #fff;
+	font-family: "TisaSansOT";
+	font-size: 0.9em;
+	margin-bottom: 0;
+	text-transform:initial;
+}
+.faq-inner-block .accordion-title {
+	    display: block;
+    border: none !important;
+    border-radius: 0;
+    width: 100%;
+    line-height: 1;
+    text-align: left;
+    font-size: 1em;
+    font-weight: normal;
+    color: #ffffff;
+    position: relative;
+    font-family: "TisaSansOT-Bold";
+    text-transform: uppercase;
+    background: none !important;
+    padding: 0 1.5em 0 0;
+}
+.faq-inner-block .accordion-title:before {
+	margin-top: 0;
+	content: '\f107';
+	font-family: 'FontAwesome';
+	font-size: 13px;
+	padding: 2px 1px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 20px;
+}	
+.faq-inner-block .accordion-title.active:before {
+	transform: rotate(180deg) translateY(50%);
+}
+.faq-inner-block .accordion-title.active + .panel {
+	opacity: 1;
+	max-height: 400px;
+}
