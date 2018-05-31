@@ -260,7 +260,7 @@
 	position: absolute;
 	background: url(../../images/parallax/gridtile.png) repeat;
 }
- @media (max-width: 762px) {
+ @media (max-width: 1200px) {
 .parallax_banner4 {
 	position: relative;
 	background-image: url(https://static1.squarespace.com/static/559dc1e5e4b03a899d83c964/5b0b2f5c352f53c0a524f048/5b0b2f5e352f53c0a524f056/1527459683809/bg1.jpg?format=1000w);

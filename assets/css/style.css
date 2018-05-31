@@ -949,7 +949,7 @@ margin-bottom: 4.5em;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #fefefe;
+	background-color: #000;
 	z-index: 99999;
 	height: 100%;
 	width: 100%;
@@ -961,7 +961,7 @@ margin-bottom: 4.5em;
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	background-image:url(../images/loader/loader.gif);
+	background-image:url(http://backgroundcheckall.com/wp-content/uploads/2017/12/loading-gif-transparent-background-bergerak-8.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: -100px 0 0 -100px;
@@ -991,14 +991,15 @@ margin-bottom: 4.5em;
 	opacity: 1;
 }
 .scroll-up a {
-	background:#292929;
+	background:#ff7e20;
 	display: block;
-	height: 46px;
-	width: 46px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
-	line-height: 46px;
+	line-height: 40px;
 	font-size: 16px;
-	color: #ffffff;
+	color: #111;
+	border: #ff7e20;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	-moz-transition: all 0.3s ease-in-out 0s;
 	-ms-transition: all 0.3s ease-in-out 0s;
@@ -1006,8 +1007,9 @@ margin-bottom: 4.5em;
 	transition: all 0.3s ease-in-out 0s;
 }
 .scroll-up a:hover {
-	background: #ccc;
-	color: #000;
+	background: #fff;
+	color: #111;
+	
 }
  @media (max-width: 767px) {
  .scroll-up {
@@ -1082,7 +1084,7 @@ ul.features-list li {
 }
 }
 @media ( min-width: 992px ) {
- .featuers-list-wrapper {
+ .features-list-wrapper {
  margin-top: 10px;
 }
  .features-list.features-list-left {
