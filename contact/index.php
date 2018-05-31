@@ -11,8 +11,8 @@
 
   gtag('config', 'UA-119906910-1');
 </script>
-  <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/photonichouse/assets/images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/photonichouse/assets/images/favicon/favicon.ico" type="image/x-icon">
   <title>Photonic House | Light Art Experience</title>
   <?php
       include_once('../components/head-css.html');
