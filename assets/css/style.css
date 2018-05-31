@@ -956,15 +956,16 @@ margin-bottom: 4.5em;
 	overflow: hidden !important;
 }
 #status {
-	width: 200px;
-	height: 200px;
+	width: 70px;
+	height: 70px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	background-image:url(http://backgroundcheckall.com/wp-content/uploads/2017/12/loading-gif-transparent-background-bergerak-8.gif);
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: -100px 0 0 -100px;
+	background-size: cover;
+	margin: -35px 0 0 -35px;
 }
 #status h4 {
 	text-align:center;

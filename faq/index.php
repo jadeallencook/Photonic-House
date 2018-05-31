@@ -20,7 +20,7 @@
     ?>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="71">
+<body data-spy="scroll" data-target=".navbar" data-offset="71" style="background-color: #101010;">
   <div class="wrapper">
     
     <?php 
