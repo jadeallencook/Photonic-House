@@ -31,6 +31,7 @@
           'teaser-vid',
           'collaborate',
           'partners',
+          'bottom',
           'footer',
           'scroll-to-top',
           'preloader',
