@@ -372,6 +372,9 @@ td.visible-xs, th.visible-xs {
 	-webkit-transition: margin 0.3s;
 	-o-transition: margin 0.3s;
 	transition: margin 0.3s;
+	position: absolute;
+	width: 100%;
+	overflow-x: hidden;
 }
 .js-wrapper-aside {
 	margin-left: -220px;

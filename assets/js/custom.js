@@ -16,7 +16,12 @@ $(window).load(function() { // makes sure the whole site is loaded
     $('body').delay(50).css({
         'overflow': 'visible'
     });
+    $('div.wrapper').css('width', window.innerWidth);
 })
+
+window.onresize = function() {
+    $('div.wrapper').css('width', window.innerWidth);
+}
 
 
 
