@@ -13,7 +13,7 @@ $privatekey = "";
 // ==========
 
 // Sender Name and <email address> separated by space
-$mail_sender = 'Support <support@retrica.com>';
+$mail_sender = 'Hello <support@retrica.com>';
 // Your Email Address where new emails will be sent to
 $to_email = '';
 // Email Subject

@@ -1,0 +1,60 @@
+<div id="contact" class=" p-top-90 p-bot-90">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 center-block wow fadeIn animated" data-wow-delay="0.30s" style="visibility: visible;-webkit-animation-delay: 0.30s; -moz-animation-delay: 0.30s; animation-delay: 0.30s;">
+          <div class="heading text-center">
+            <h2 class="bold-font text-uppercase">Contact</h2>
+            <div class="border-strip margin-bottom-25"></div>
+            <div class="subheading">At vero eos et accusamus et iusto odio dignissimos accusamus et iusto odio dignissimos</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Alert message -->
+        <div class="alert contact-form__alert" id="form_message" role="alert"></div>
+        <!-- Contact form --> 
+        <!-- Please carefully read the Documentation
+          in order to setup the PHP contact form properly -->
+        <form class="contact__form" id="form_sendemail">
+          <div class="row">
+            <!-- Name -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name" class="sr-only">Your name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Full Name">
+                <span class="help-block"></span> 
+              </div>
+            </div>
+            <!-- Email -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email" class="sr-only">Your email address</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="E-mail">
+                <span class="help-block"></span> 
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message" class="sr-only">Your message</label>
+                <textarea name="message" class="form-control" rows="9" id="message" placeholder="Message"></textarea>
+                <span class="help-block"></span> 
+              </div>
+              <!-- reCAPTCHA -->
+              <div class="form-group" id="form-captcha">
+                <div class="g-recaptcha" data-sitekey="YOUR_PUBLIC_KEY"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=YOUR_PUBLIC_KEY&amp;co=aHR0cDovL3RoZW1lcy5mcmFua2pvaG4uaW46ODA.&amp;hl=en&amp;v=v1526884278587&amp;size=normal&amp;cb=r6rvj2u1ktf" width="304" height="78" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
+                <span class="help-block"></span> 
+              </div>
+              <!-- /reCAPTCHA --> 
+              <div class="text-center">
+                <button type="submit" class="submit1"> Send message </button>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
