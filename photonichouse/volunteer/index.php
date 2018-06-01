@@ -27,7 +27,6 @@
           'navbar',
           'volunteer',
           'footer',
-          'scroll-to-top',
           'preloader',
           'javascript'
         ); 

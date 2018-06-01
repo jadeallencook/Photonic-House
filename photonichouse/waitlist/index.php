@@ -28,7 +28,6 @@
             'navbar',
             'waitlist',
             'footer',
-            'scroll-to-top',
             'preloader',
             'javascript'
           ); 

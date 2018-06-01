@@ -29,7 +29,6 @@
         'navbar',
         'artist',
         'footer',
-        'scroll-to-top',
         'preloader',
         'javascript'
       ); 

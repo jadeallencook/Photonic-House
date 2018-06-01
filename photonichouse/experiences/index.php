@@ -29,7 +29,7 @@
         'navbar',
         'experiences',
         'footer',
-        'scroll-to-top',
+        'waitlist-floating',
         'preloader',
         'javascript'
       ); 

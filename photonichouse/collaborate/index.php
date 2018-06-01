@@ -27,7 +27,6 @@
           'navbar',
           'collaborate',
           'footer',
-          'scroll-to-top',
           'preloader',
           'javascript'
         ); 

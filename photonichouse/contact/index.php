@@ -28,7 +28,6 @@
             'navbar',
             'contact',
             'footer',
-            'scroll-to-top',
             'preloader',
             'javascript'
           ); 
