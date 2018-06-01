@@ -21,20 +21,19 @@
 </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="71">
     <div class="wrapper">
-      <?php 
-        $sections = array(
-          'navbar',
-          'waitlist',
-          'footer',
-          'scroll-to-top',
-          'preloader',
-          'javascript'
-        ); 
-        foreach ($sections as $section) {
-            include_once("../components/$section.html");
-        }
-      ?>
+        <?php 
+          $sections = array(
+            'navbar',
+            'waitlist',
+            'footer',
+            'scroll-to-top',
+            'preloader',
+            'javascript'
+          ); 
+          foreach ($sections as $section) {
+              include_once("../components/$section.html");
+          }
+        ?>
     </div>
-</body>
-
+  </body>
 </html>
