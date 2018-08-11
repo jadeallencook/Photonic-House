@@ -235,7 +235,7 @@
 }
 .parallax_banner4 {
 	position: relative;
-	background-image: url(../../images/current/header-img.jpg));
+	background-image: url(../../images/current/header-img.jpg);
 	height: 100vh;
 }
 .parallax_banner4 .container {
