@@ -29,11 +29,10 @@
           'how-it-works',
           'experiences',
           'teaser-vid',
-          'collaborate',
           'partners',
           'bottom',
           'footer',
-          'waitlist-floating',
+          'tickets-floating',
           'preloader',
           'javascript'
         ); 

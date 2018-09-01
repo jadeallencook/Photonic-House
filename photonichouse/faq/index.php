@@ -29,7 +29,7 @@
         'navbar',
         'faq',
         'footer',
-        'waitlist-floating',
+        'tickets-floating',
         'preloader',
         'javascript'
       ); 

@@ -11,6 +11,7 @@
 
   gtag('config', 'UA-119906910-1');
 </script>
+
   <link rel="shortcut icon" href="/photonichouse/assets/images/favicon/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/photonichouse/assets/images/favicon/favicon.ico" type="image/x-icon">
   <title>Photonic House | Light Art Experience</title>
@@ -19,23 +20,21 @@
       include_once('../components/head-meta.html');
     ?>
 </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="71" style="background-color: #101010;">
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="71">
     <div class="wrapper">
-          <?php 
-      
-        $sections = array(
-          'navbar',
-          'collaborate',
-          'footer',
-          'preloader',
-          'javascript'
-        ); 
-
-        foreach ($sections as $section) {
-            include_once("../components/$section.html");
-        }
-
-          ?>
+        <?php 
+          $sections = array(
+            'navbar',
+            'tickets',
+            'footer',
+            'preloader',
+            'javascript'
+          ); 
+          foreach ($sections as $section) {
+              include_once("../components/$section.html");
+          }
+        ?>
     </div>
   </body>
 </html>

@@ -29,7 +29,7 @@
         'navbar',
         'experiences',
         'footer',
-        'waitlist-floating',
+        'tickets-floating',
         'preloader',
         'javascript'
       ); 
